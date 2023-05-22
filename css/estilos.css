@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fondo-img{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.526), rgba(0, 0, 0, 0.819)), url("../assets/img/fondo.png");
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    color: #fff;
+}

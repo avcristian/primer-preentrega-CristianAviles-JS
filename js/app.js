@@ -1,19 +1,12 @@
-const sBacon = new Burger(1, 'Simple Bacon', 1500, '4 estrellas');
-const dBacon = new Burger(2, 'Doble Bacon', 2000, '5 estrellas')
-const sCheddar = new Burger(3, 'Simple Cheddar', 1300, '4 estrellas')
-const dCheddar = new Burger(4, 'Doble Cheddar', 1800, '5 estrellas')
-const sFrany = new Burger(5, 'Simple Frany', 1500, '4 estrellas');
-const dFrany = new Burger(6, 'Doble Frany', 2000, '5 estrellas')
-
-let listaBurger = [
-    sBacon,
-    dBacon,
-    sCheddar,
-    dCheddar,
-    sFrany,
-    dFrany
-];
+let listaBurger = [];
 let carrito = [];
+listaBurger.push(new Burger('Simple Bacon', 1500, '4 estrellas'));
+listaBurger.push(new Burger('Doble Bacon', 2000, '5 estrellas'));
+listaBurger.push(new Burger('Simple Cheddar', 1300, '4 estrellas'));
+listaBurger.push(new Burger('Doble Cheddar', 1800, '5 estrellas'));
+listaBurger.push(new Burger('Simple Frany', 1500, '4 estrellas'));
+listaBurger.push(new Burger('Doble Frany', 2000, '5 estrellas'));
+localStorage.setItem('listaBurger', JSON.stringify(listaBurger))
 let nombreUser;
 let total = 0;
 
