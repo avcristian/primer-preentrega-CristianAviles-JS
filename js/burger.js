@@ -1,11 +1,9 @@
 class Burger{
     nombre;
     precio;
-    valoracion;
 
-    constructor(nombre, precio, valoracion){
+    constructor(nombre, precio){
         this.nombre = nombre;
         this.precio = precio; //number
-        this.valoracion = valoracion; // string
     }
 }
