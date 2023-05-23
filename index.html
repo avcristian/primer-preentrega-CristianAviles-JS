@@ -41,28 +41,28 @@
         <div id="lista-burgers">
             <div class="row">
                 <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 pb-2 card productos__card">
-                    <h4>Frany Burger con papas fritas</h4>
+                    <h id="titulo-producto">Frany Burger con papas fritas</h4>
                     <div class="card__img">
-                        <img src="../assets/img/simplefrany.jpeg" alt="Hamburguesa simple frany, Frany Burger" width="100%">
+                        <img id="img-producto" src="../assets/img/simplefrany.jpeg" alt="Hamburguesa simple frany, Frany Burger" width="100%">
                     </div>
                     <p>Medallon de carne, lechuga, tomate, cheddar y aderezo frany.</p>
-                    <div class="boton"><a href="404.html">Agregar al carrito</a></div>
+                    <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1" id="agregar-carrito">Agregar Al Carrito</a>                
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 card productos__card">
-                    <h4>Doble Frany Burger con papas fritas</h4>
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 pb-2 card productos__card">
+                    <h id="titulo-producto">Frany Burger con papas fritas</h4>
                     <div class="card__img">
-                        <img src="../assets/img/frannydoble.jpeg" alt="Hamburguesa simple frany, Frany Burger" width="100%">
+                        <img id="img-producto" src="../assets/img/simplefrany.jpeg" alt="Hamburguesa simple frany, Frany Burger" width="100%">
                     </div>
                     <p>Medallon de carne, lechuga, tomate, cheddar y aderezo frany.</p>
-                    <div class="boton"><a href="404.html">Agregar al carrito</a></div>
+                    <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="2" id="agregar-carrito">Agregar Al Carrito</a>                
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 card productos__card">
-                    <h4>Doble Frany Burger con papas fritas</h4>
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 pb-2 card productos__card">
+                    <h id="titulo-producto">Frany Burger con papas fritas</h4>
                     <div class="card__img">
-                        <img src="../assets/img/frannydoble.jpeg" alt="Hamburguesa simple frany, Frany Burger" width="100%">
+                        <img id="img-producto" src="../assets/img/simplefrany.jpeg" alt="Hamburguesa simple frany, Frany Burger" width="100%">
                     </div>
                     <p>Medallon de carne, lechuga, tomate, cheddar y aderezo frany.</p>
-                    <div class="boton"><a href="404.html">Agregar al carrito</a></div>
+                    <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="3" >Agregar Al Carrito</a>                
                 </div>
             </div>
             <div class="row">
@@ -92,6 +92,25 @@
                 </div>
             </div>
         </div>
+        <section>
+            <div id="carrito">
+                                    
+                <table class="u-full-width">
+                    <thead>
+                        <tr>
+                            <th>Imagen</th>
+                            <th>Nombre</th>
+                            <th>Precio</th>
+                            <th>descripcion</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody id="lista-carrito"></tbody>
+                </table>
+
+                <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</a>
+        </div>
+        </section>
     </main>
     <footer>
 
